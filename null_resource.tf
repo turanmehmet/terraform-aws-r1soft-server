@@ -4,7 +4,7 @@ resource "null_resource" "myscript" {
     }
     provisioner "remote-exec" {
     inline = [
-      "sudo yum update -y",
+      "echo r1soft installation",
     ]
   }
     connection {
