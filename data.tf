@@ -12,7 +12,4 @@ data "aws_ami" "centos" {
   }
 }
 
-# Shows AMI ID
-output "CENTOS_ID" {
-  value = data.aws_ami.centos.id
-}
+
